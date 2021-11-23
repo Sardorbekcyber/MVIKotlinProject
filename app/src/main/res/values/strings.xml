@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVITestProject</string>
+    <string name="time_travel_serialize_error">Time Travel Serialize Error</string>
+    <string name="time_travel_export_subject">Time Travel Export Subject</string>
+    <string name="time_travel_export_chooser_title">Time Travel Export Chooser Title</string>
+    <string name="time_travel_clipboard_empty">Time Travel Clipboard Empty</string>
+    <string name="time_travel_deserialize_error">Time Travel Deserialize Error</string>
+</resources>
