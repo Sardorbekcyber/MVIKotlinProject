@@ -3,7 +3,7 @@ package com.example.mvitestproject
 import com.arkivanov.mvikotlin.extensions.coroutines.SuspendExecutor
 import kotlinx.coroutines.delay
 
-internal class CalculatorExecutorImpl :
+class CalculatorExecutorImpl :
     SuspendExecutor<CalculatorStore.Intent,
             CalculatorStore.Action,
             CalculatorStore.State,

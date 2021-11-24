@@ -2,7 +2,7 @@ package com.example.mvitestproject
 
 import com.arkivanov.mvikotlin.core.store.Store
 
-internal interface CalculatorStore : Store<CalculatorStore.Intent, CalculatorStore.State, CalculatorStore.Label> {
+interface CalculatorStore : Store<CalculatorStore.Intent, CalculatorStore.State, CalculatorStore.Label> {
 
     sealed class Action {
         object Initialize : Action()

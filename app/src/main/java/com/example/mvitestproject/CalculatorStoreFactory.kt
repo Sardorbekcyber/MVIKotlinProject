@@ -3,7 +3,7 @@ package com.example.mvitestproject
 import com.arkivanov.mvikotlin.core.store.Store
 import com.arkivanov.mvikotlin.core.store.StoreFactory
 
-internal class CalculatorStoreFactory(
+class CalculatorStoreFactory(
     private val storeFactory: StoreFactory
 ) {
 
